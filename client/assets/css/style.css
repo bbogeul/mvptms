@@ -207,7 +207,11 @@ blockquote {
 .default-bg h4,
 .default-bg h5,
 .default-bg h6,
-.translucent-bg h1,
+.translucent-bg h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
 .translucent-bg h2,
 .translucent-bg h3,
 .translucent-bg h4,
@@ -253,17 +257,17 @@ blockquote {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .translucent-bg.blue:after {
-	background-color: rgba(85, 172, 238, 0.7);
+	background-color: rgba(85, 172, 238, 0.36);
 }
 .translucent-bg .container {
 	z-index: 3;
 	position: relative;
 }
 .bg-image-1 {
-	background: url("/mvp.png") 50% 0px no-repeat;
+	background: url("/mvp.png") 50% 0px no-repeat fixed;
 }
 .bg-image-2 {
-	background: url("/f.jpg") 50% 0px no-repeat;
+	background: url("/f.jpg") 50% 0px no-repeat fixed;
 }
 
 /* Misc
