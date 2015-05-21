@@ -1,7 +1,45 @@
+
 Router.map(function(){
-    this.route('home', {path: '/'} );
-    this.route('about', {path: '/about-us'});
-    this.route('team', {path: '/meet-the-crew'});
-     this.route('emr', {path: '/emr'});
-    this.route('practice', {path: '/what-we-do'});
+    // Specify a different template than 'home'
+this.route('home', {
+  path: '/',
+  layoutTemplate: 'layout',
+   action: function() {
+    // this is an instance of RouteController
+    // access to:
+    //  this.params
+    //  this.wait
+    //  this.render
+    //  this.stop
+    //  this.redirect
+
+
+    // render yieldTemplates
+    this.render('header', {to: 'menu'});
+    this.render('footer', {to: 'footer'});
+    this.render('home');
+       
+  }
+});
+    this.route('about', {
+  path: '/about-mvptms',
+  layoutTemplate: 'layout',
+   action: function() {
+    // this is an instance of RouteController
+    // access to:
+    //  this.params
+    //  this.wait
+    //  this.render
+    //  this.stop
+    //  this.redirect
+
+
+    // render yieldTemplates
+    this.render('header', {to: 'menu'});
+    this.render('footer', {to: 'footer'});
+    this.render('about');
+       
+  }
+});
+   
 });
