@@ -139,7 +139,7 @@ blockquote {
 	color: #fff;
 }
 .banners-image {
-    background-image:url('/smile.png') ;
+    background-image:url('/banner.jpg') ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom; 
@@ -271,7 +271,7 @@ blockquote {
 	background: url("/mvp.png") 50% 0px no-repeat fixed;
 }
 .bg-image-2 {
-	background: url("/f.jpg") 50% 0px no-repeat fixed;
+	background: url("/yose.jpg") 50% 0px no-repeat fixed;
 }
 
 /* Misc
@@ -505,8 +505,8 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li > a {
 	color: #3b71ba;
-	padding: 10px 20px;
-	font-size: 18px;
+	padding: 8px 16px;
+	font-size: 14px;
 	font-weight: 300;
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
@@ -698,7 +698,7 @@ textarea {
 /* Images Overlay
 ----------------------------------------------------------------------------- */
 .banner-image {
-    background-image: url(/yose.jpg) ;
+    background-image: url(/bg-image-1.jpg) ;
 }
 #half-banner {
     background: #000 ;
