@@ -133,12 +133,16 @@ blockquote {
 }
 .banners {
 	width: 100%;
-	height: 68%;
-	min-height: 50%;
+	height: 78%;
+	min-height: 78%;
 	position: relative;
 	color: #fff;
 }
 .banners-image {
+    background-image:url('/smile.png') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom; 
 	vertical-align: middle;
 	min-height: 100%;
 	width: 100%;

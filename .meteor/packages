@@ -13,5 +13,4 @@ okgrow:iron-router-autoscroll
 ostrio:iron-router-title
 accounts-password
 ian:accounts-ui-bootstrap-3
-accounts-facebook
-accounts-twitter
+accounts-base
