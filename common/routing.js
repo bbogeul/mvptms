@@ -4,6 +4,7 @@ Router.map(function(){
 this.route('home', {
   path: '/',
   layoutTemplate: 'layout',
+     title: 'Happiness Begins Here | Mountain View Psychiatrics',
    action: function() {
     // this is an instance of RouteController
     // access to:
@@ -24,6 +25,7 @@ this.route('home', {
     this.route('about', {
   path: '/about-mvptms',
   layoutTemplate: 'layout',
+        title: 'About Mountain View Psychiatrics',
    action: function() {
     // this is an instance of RouteController
     // access to:
