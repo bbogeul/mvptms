@@ -770,11 +770,24 @@ textarea {
 
 .blog-latest-title {
     color: #236aa6;
+    font-size: 18px;
+    font-weight: 500;
    
 }
 .blog-latest-posts {
     color:#000;
+    list-style: none;
 }
+.blog-latest-posts > li > a {
+    color: #000;
+}
+
+.blog-date {
+    font-size: 11px;
+    text-align: right;
+}
+
 .mb-title text-center {
     font-family: 'Oswald', sans-serif;
 }
+
