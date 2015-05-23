@@ -43,5 +43,26 @@ this.route('home', {
        
   }
 });
+        this.route('team', {
+  path: '/meet-the-team',
+  layoutTemplate: 'layout',
+        title: 'Meet the Team ',
+   action: function() {
+    // this is an instance of RouteController
+    // access to:
+    //  this.params
+    //  this.wait
+    //  this.render
+    //  this.stop
+    //  this.redirect
+
+
+    // render yieldTemplates
+    this.render('header', {to: 'menu'});
+    this.render('footer', {to: 'footer'});
+    this.render('team');
+       
+  }
+});
    
 });
