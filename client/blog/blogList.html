@@ -21,7 +21,8 @@
 				<h1 id="clients" class="title text-center">Blogs and Articles</h1>
 				<div class="space"></div>
 				<div class="row">
-					<div class="col-md-12">
+                  
+					<div class="col-md-9">
                             {{#each posts}}
 						<div class="media testimonial">
 							<div class="media-left">
@@ -32,12 +33,16 @@
 								<blockquote>
                                     <cite style="font-size:11px">Date: {{publishedAt}}</cite>
                                      <p>{{excerpt}}</p>
-									<footer><a href="{{pathFor 'blogShow'}}"><button class="btn btn-default pull-right">Read More</button></a></footer>
+                                    <p> <a href="{{pathFor 'blogShow'}}"><button class="btn btn-default pull-left">Read More</button></a></p>
+								<hr>
 								</blockquote>
 							</div>
 						</div>
                         {{/each}}
 					</div>
+                      <div class="col-md-3 well">
+                            {{> blogLatest}}
+                    </div>
                 </div></div>
 			
 	

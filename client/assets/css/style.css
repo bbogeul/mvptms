@@ -764,3 +764,17 @@ textarea {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+
+
+/*for the blog */
+
+.blog-latest-title {
+    color: #236aa6;
+   
+}
+.blog-latest-posts {
+    color:#000;
+}
+.mb-title text-center {
+    font-family: 'Oswald', sans-serif;
+}

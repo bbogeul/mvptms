@@ -2,6 +2,7 @@
 if (Meteor.isClient) {
   Blog.config({
     blogIndexTemplate: 'blogList',
-    blogShowTemplate: 'blogDetail'
+    blogShowTemplate: 'blogDetail',
+    blogLatest: 'myLatest'
   });
 }
