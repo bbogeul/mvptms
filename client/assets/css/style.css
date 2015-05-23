@@ -145,6 +145,15 @@ blockquote {
 	min-height: 100%;
 	width: 100%;
 }
+.bannering-image {
+    background-image:url('/keyboard.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom; 
+	vertical-align: middle;
+	min-height: 100%;
+	width: 100%;
+}
 .banners:after {
 	position: absolute;
 	top: 0;

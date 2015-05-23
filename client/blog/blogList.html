@@ -28,10 +28,10 @@
 								<i class="fa fa-newspaper-o"></i>
 							</div>
 							<div class="media-body">
-                                <a href="{{pathFor 'blogShow'}}"><h3 class="media-heading">{{title}}</h3></a>
+                                <a href="{{pathFor 'blogShow'}}" ><h3 class="media-heading" style="color:#236aa6">{{title}}</h3></a>
 								<blockquote>
-									<p>Published on {{publishedAt}}</p>
-                                     <p>Excerpt: {{excerpt}}</p>
+                                    <cite style="font-size:11px">Date: {{publishedAt}}</cite>
+                                     <p>{{excerpt}}</p>
 									<footer><a href="{{pathFor 'blogShow'}}"><button class="btn btn-default pull-right">Read More</button></a></footer>
 								</blockquote>
 							</div>
